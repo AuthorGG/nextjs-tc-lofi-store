@@ -1,90 +1,29 @@
-🛒 TC LO-FI Store - Demo Next.js
+# 🛒 TC LO-FI Store - Demo Next.js
 
-Proyecto demo de e-commerce desarrollado con Next.js (App Router) y React para practicar y demostrar diferentes funcionalidades modernas de frontend.
+Proyecto demo desarrollado con **Next.js (App Router)** y **React**, pensado para mostrar buenas prácticas de frontend moderno.
 
-👉 Deploy en Vercel: https://nextjs-tc-lofi-store.vercel.app/
+## 🚀 Funcionalidades
+- ✅ **Catálogo** de productos mock con imágenes (ISR - revalidate 60s).
+- ✅ **Detalle de producto** dinámico con SSR.
+- ✅ **Productos relacionados** en carrusel (Swiper.js).
+- ✅ **Carrito de compra** con Context API (agregar, quitar, vaciar, modificar cantidades).
+- ✅ **Animaciones** con Framer Motion.
+- ✅ **Formulario de contacto** con Server Actions.
+- ✅ **Métricas Web Vitals** (LCP, CLS) + Lighthouse.
 
-🚀 Funcionalidades principales
+## 🖼️ Screenshots
+*(Agrega aquí capturas de tu home, detalle y carrito)*
 
-📦 Catálogo de productos con datos mock.
+## 🛠️ Stack
+- [Next.js 14+](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Swiper.js](https://swiperjs.com/) (carrusel)
+- [Web Vitals](https://web.dev/vitals/)
 
-⚡ ISR (Incremental Static Regeneration) → listado de productos con revalidate cada 60s.
-
-🌐 SSR (Server-Side Rendering) → detalle de producto.
-
-🛒 Carrito de compra con Context API (agregar, quitar, modificar cantidades, vaciar).
-
-🎞️ Animaciones con Framer Motion (transiciones entre páginas).
-
-🎠 Carrusel de productos relacionados (Swiper.js).
-
-🖼️ Optimización de imágenes con next/image.
-
-📩 Formulario de suscripción con Server Actions.
-
-📊 Métricas de rendimiento con Web Vitals (LCP, CLS) y Lighthouse.
-
-🛠️ Tecnologías utilizadas
-
-Next.js 15+ (App Router)
-
-React 18
-
-CSS global con variables
-
-Framer Motion (animaciones)
-
-Swiper.js (carrusel)
-
-Context API (React) (carrito global)
-
-next/image (optimización de imágenes)
-
-Web Vitals + Lighthouse (rendimiento y métricas)
-
-Vercel (deploy continuo desde GitHub)
-
-🧪 Testing
-
-Para asegurar la calidad del código se añadieron pruebas:
-
-✅ Unit tests con Jest + React Testing Library:
-
-Card.test.jsx → valida que un Card renderice correctamente el título y el precio.
-
-AddToCartButton.test.jsx → comprueba que el botón “Agregar al carrito” se renderiza y responde al click.
-
-🔜 Futuro: pruebas E2E con Cypress para validar el flujo completo de compra.
-📦 Instalación y ejecución
-
-Clonar el repo:
-
+## 📦 Instalación
+```bash
 git clone https://github.com/TuUsuario/nextjs-tc-lofi-store.git
 cd nextjs-tc-lofi-store
-
-Instalar dependencias:
-
 npm install
-
-Modo desarrollo:
-
 npm run dev
-
-Build para producción:
-
-npm run build
-npm start
-
-Ejecutar tests:
-
-npm test
-
-📌 Próximos pasos
-
-Mejorar diseño responsive.
-
-Añadir notificaciones tipo toast para feedback del carrito.
-
-Extender pruebas con Cypress (E2E).
-
-Integrar pagos simulados para completar el flujo e-commerce.
